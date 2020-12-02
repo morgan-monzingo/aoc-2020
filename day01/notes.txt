@@ -1,0 +1,15 @@
+Morgan's Notes for solving (not tried so feel free to do something else) 
+Sort list 
+Counter for front 
+Counter for back
+Iterate through the front of the list
+add front number to the back number  of the list until you find the sum of something lower than what you want.  
+if lower than what you want
+Move front counter forward
+Move back counter back 1 (so you don’t hit numbers you know are too big) 
+if sum what you want
+save both numbers
+print multiplied value out 
+if sum bigger than you want
+move back counter closer to front
+
