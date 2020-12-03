@@ -1,0 +1,11 @@
+Input structure: FewestAmt - GreatestAmt letter: password
+
+Loop through all lines in file
+  store password
+  store greatestAmt
+  store leastAmt
+  for each letter in password
+    if it's a match add to the matchCounter
+    if match counter is greater than GreatestAmt -> add 1 to invalidPass count & break to next line in file
+  At end of password && leastAmt is larger than matchCounter -> add 1 to invalidPass count
+Print count
