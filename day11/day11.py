@@ -94,7 +94,7 @@ def check_seat_pt2(row, col):
     if(conflict == 0 and self == "L"):
         changept2 = True
         return "#"
-    if(conflict >= 5):
+    if(conflict >= 5 and self == "#"):
         changept2 = True
         return "L"
     return self
@@ -110,7 +110,7 @@ def configure_row_pt2(row, index):
 
 
 while(changept2):
-# for i in range(0,7):
+# for i in range(0,50000):
     row_index = 0
     changept2 = False
     # print(history)
